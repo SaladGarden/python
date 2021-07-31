@@ -5,7 +5,7 @@
 print("hello World!")
 print (u"你好？")
 print("你好?")
-print("testcommitttttt")
+print("testcommit")
 print("Heloo Again")
 print("I like typing this.")
 print("This is fun.")
