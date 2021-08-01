@@ -9,7 +9,7 @@
 
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
-backslash_cat = "I'm \\ a \\ cat."
+backslash_cat = "I'm \\ a \\ hooman."
 
 # \t是输出八个空格
 # \n是换行
@@ -19,12 +19,11 @@ I'll do a list:
 \t* Fishies
 \t* Catnip\n\t* Grass
 """
-print tabby_cat
-print persian_cat
-print backslash_cat
-print fat_cat
+print (tabby_cat)
+print (persian_cat)
+print (backslash_cat)
+print (fat_cat)
 
 # 试试运行下面的代码
-#while True:
-#    for i in ["/","-","|","\\","|"]:
-#	print "%s\r" % i,
+for i in ["/","-","|","\\","|"]:
+    print ("%s\r" % i)
