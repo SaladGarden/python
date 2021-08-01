@@ -13,19 +13,18 @@
 days = "Mon Tue Wed Thu Fri Sat Sun"
 months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
-print "Here are the days:", days
-print "Here are the months:", months
+print ("Here are the days:", days)
+print ("Here are the months:", months)
 
-print """
-There's something going on here.
-With the three double-quotes.
+print ("""
+There's something going on here. %s
+With the three double-quotes. %s
 We'll be able to type as much as we like.
 Even 4 lines if we want, or 5, or 6.
-"""
+"""%(days,days))
 
 # 笔记
 #
 # 1.\n是换行
 # 2.三个双引号包含的内容可以是多行存在的
 # 3.少用""""""这个不优雅
-
