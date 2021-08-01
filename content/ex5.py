@@ -8,7 +8,7 @@
 #
 # 使用专门的格式和语法把变量的内容放到字符串里。
 #
-# %d输出数字 
+# %d输出数字
 # %s输出字符串
 
 
@@ -20,14 +20,13 @@ my_eyes = 'Brown'
 my_teeth = 'White'
 my_hair = 'Black'
 
-print "Let's talk about %s." % my_name
-print "He's %d cm tall." % my_height
-print "He's %d kg heavy." % my_weight
-print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." % (my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." % my_teeth
+print("Let's talk about %s." % my_name)
+print("He's %d cm tall." % my_height)
+print("He's %d kg heavy." % my_weight)
+print("Actually that's not too heavy.")
+print("He's got %s eyes and %s hair." % (my_eyes, my_hair))
+print("His teeth are usually %s depending on the coffee." % my_teeth)
 
 # 这里是有错误的，找出错误
-print "If I add %d,%d,and %d I get %d" %(
-    my_age, my_height, my_weight, my_age + my_height + my_weight)  
+print("If I add %d,%d,and %d I get %d" %(my_age, my_height, my_weight, my_age + my_height + my_weight))
 # 我没找到错误！
